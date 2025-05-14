@@ -1,0 +1,20 @@
+body {
+  background: #fff;
+  color: #000;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #111;
+  color: #fff;
+}
+
+:root {
+  --base-font-size: 16px;
+}
+
+body {
+  font-size: var(--base-font-size);
+  transition: font-size 0.3s ease;
+}

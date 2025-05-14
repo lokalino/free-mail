@@ -1,0 +1,12 @@
+# Node
+node_modules
+dist
+
+# Laravel
+vendor
+.env
+storage/*.key
+
+# System / IDE
+.DS_Store
+.idea
